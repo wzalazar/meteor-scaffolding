@@ -1,4 +1,4 @@
-/*Schema = {};
+Schema = {};
 
 Schema.UserCountry = new SimpleSchema({
     name: {
@@ -92,10 +92,10 @@ Schema.User = new SimpleSchema({
     // You can't mix and match adding with and without a group since
     // you will fail validation in some cases.
     roles: {
-        type: [Object],
+        type: [String],
         optional: true,
         blackbox: true
     }
 });
 
-Meteor.users.attachSchema(Schema.User);*/
+Meteor.users.attachSchema(Schema.User);
